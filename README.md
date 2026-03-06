@@ -1,5 +1,7 @@
 # DW://master — Data Warehousing Intelligence Platform
 
+![alt text](Screenshots/DW_MASETR_2.png)
+
 ![DW://master](https://img.shields.io/badge/DW%3A%2F%2Fmaster-Data_Warehousing_Intelligence-00ffc6?style=for-the-badge&logo=database&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Claude AI](https://img.shields.io/badge/Claude_AI-Sonnet_4-818cf8?style=for-the-badge&logo=anthropic&logoColor=white)
@@ -69,6 +71,10 @@ DW://master is an interactive learning platform for data warehousing concepts, f
 - **Concept chips** for quick reference tags
 - **Gradient accent border** matching concept color
 
+
+![alt text](<Screenshots/Core Concepts.png>)
+
+![alt text](Screenshots/Lakehouse.png)
 ---
 
 ## 📐 **Module 02: Schema Design — Star vs Snowflake**
@@ -99,6 +105,11 @@ DW://master is an interactive learning platform for data warehousing concepts, f
 | **Storage**     | 🟡 More     | 🟢 Less          |
 | **Complexity**  | 🟢 Low      | 🟡 Higher        |
 | **Ideal for**   | OLAP / BI   | OLTP / DW        |
+
+
+
+![alt text](<Screenshots/Scehma Design.png>)
+
 
 ---
 
@@ -131,6 +142,9 @@ DW://master is an interactive learning platform for data warehousing concepts, f
 - **Status badges** for current/active rows
 - **Date tracking** for Type 2 (start/end)
 
+![alt text](<Screenshots/SCD Types.png>)
+
+
 ---
 
 ## ⬡ **Module 04: Watsonx.data — IBM Lakehouse**
@@ -155,6 +169,9 @@ DW://master is an interactive learning platform for data warehousing concepts, f
 | ☁   | **Multi-cloud**            | Deploy on AWS, Azure, GCP, or IBM Cloud. Seamless portability via open standards.          | `#f472b6` |
 | 🤖   | **AI Ready**               | Native integration with watsonx.ai for model training directly on lakehouse data.          | `#fb923c` |
 | 💰   | **Cost Optimizer**         | Route queries to the cheapest engine automatically. 50–70% cost reduction vs cloud DW.    | `#a78bfa` |
+
+
+![alt text](Screenshots/WatsonX.png)
 
 ---
 
@@ -188,6 +205,9 @@ DW://master is an interactive learning platform for data warehousing concepts, f
 - "Total sales by region and year with subtotals using ROLLUP"
 - "Sales per product category with grouping sets for product and region"
 - "CUBE query showing all combinations of salesperson and car class"
+
+
+![alt text](<Screenshots/SQL Lab.png>)
 
 ---
 
