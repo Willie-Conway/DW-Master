@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
 
-# Add this permissions block
 permissions:
   contents: write
 
@@ -12,9 +11,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: '18'
           
@@ -26,7 +25,7 @@ jobs:
         env:
           CI: false
           
-      - name: Deploy to GitHub Pages
+      - name: CI-CD Pipeline
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
