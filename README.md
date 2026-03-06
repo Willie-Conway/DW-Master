@@ -413,16 +413,3 @@ MIT License — see LICENSE file for details.
 
 *Last updated: March 2026*
 
-# Delete the old lock file
-
-rm package-lock.json
-
-# Delete node_modules to be safe
-
-rm -rf node_modules
-
-# Install fresh
-
-npm install
-
-# This will create a new package-lock.json with all dependencies
