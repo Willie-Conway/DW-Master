@@ -110,7 +110,7 @@ DW://master is an interactive learning platform for data warehousing concepts, f
 
 ![alt text](<Screenshots/Scehma Design.png>)
 
-
+![alt text](<Screenshots/Snowflake schema.png>)
 ---
 
 ## 🔄 **Module 03: Slowly Changing Dimensions (SCD)**
