@@ -1,4 +1,4 @@
-name: CI-CD Pipeline
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -25,9 +25,10 @@ jobs:
         env:
           CI: false
           
-      - name: CI-CD Pipeline
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          publish_branch: gh-pages
+      - name: Deploy docs folder to GitHub Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ -f
+          git commit -m "Deploy docs folder" || echo "No changes to commit"
+          git push origin main
